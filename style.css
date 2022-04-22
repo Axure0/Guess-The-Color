@@ -23,14 +23,18 @@ body {
 	o-transition: background .5s;
 } 
 
-h1 {
-	color: white;
+.wrapper {
 	background-color: #2C8E99;
-	font-size: 3.5em;
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
 	padding: 10px 0;
+}
+
+h1, 
+span {
+	font-size: 3.5em;
+	color: white;
 }
 
 #color-display {
